@@ -35,6 +35,12 @@
             "migrations/.gitignore"
         ]
     },
+    "php-cs-fixer/shim": {
+        "version": "3.89",
+        "recipe": {
+            "version": "3.0"
+        }
+    },
     "phpunit/phpunit": {
         "version": "12.4",
         "recipe": {
