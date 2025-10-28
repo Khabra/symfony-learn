@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        {% block stylesheets %}
+            {{ importmap('app') }}
+        {% endblock %}
+    </head>
+    <body>
+        <div class="grid-container">
+            <div class="homepage-title">
+                Título insano te página
+            </div>
+            <div class="grid-item">
+                El contador insano va en {{ contadorInsano }} insanidades!
+                {% if contadorInsano >= 1000 %}
+                    <p>
+                        Hay demasiada insaneidad!!!
+                    </p>
+                {% endif %}
+            </div>
+            <div>
+                Otro texto
+            </div>
+        </div>
+    </body>
+</html>
